@@ -61,3 +61,11 @@ for i in range(1,11,2):  # start,end+1,step
 
 for i in range(100,0,-1):
   print(i)
+
+
+# while loop
+
+# val = "a"
+# while val<="z":
+#   print(val)
+#   val += 1
