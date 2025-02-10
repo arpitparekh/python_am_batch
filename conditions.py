@@ -1,5 +1,4 @@
 # condition is used to manage the flow of the program
-
 # if else elif
 
 number = 15
