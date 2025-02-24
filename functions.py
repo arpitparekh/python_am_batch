@@ -76,5 +76,63 @@ def left_align_triangle(n):
 
 
 # left_align_triangle(12)
-left_align_triangle(int(input("Enter Number : ")))
-left_align_triangle(int(input("Enter Number : ")))
+# left_align_triangle(int(input("Enter Number : ")))
+# left_align_triangle(int(input("Enter Number : ")))
+
+# function with parameter args and kwrags
+
+def display_karo(*args):
+  print(args)  # tuple
+
+
+display_karo(2,3,"Hello",324,4545.45,True)
+
+# keyword arguments
+
+def mera_function(name,phone,address):
+  print(name)
+  print(phone)
+  print(address)
+
+
+# mera_function("Raj",8978978978,"Pune")
+# if you want to mantain the parameter order then you can use keyword arguments
+mera_function(address="Pune",name="Raj",phone=8978978978)
+
+# kwargs
+
+def mera_function(**kwargs):  # dictionary
+  for i in kwargs:
+    print(i,kwargs[i])
+
+
+mera_function(age = 23,address = "Pune",phone = 8978978978,name = "Raj",salary = 234234234234)
+
+# default argument
+def sum_karo(a,b,c=20):
+  return a+b+c
+
+print(sum_karo(10,20))
+
+# lambda function
+# function without any name
+# lambda function is a anonymous function
+# lambda function is a one liner function
+
+demo = lambda name : print(name)
+
+# def demo(name):
+#   print(name)
+
+demo("Raj")
+
+# veriables
+# datatypes
+# operators
+# conditional statements
+# loops
+# loop inside loop # patterns
+# functions
+# lambda function
+
+# oopc # object oriented programming concepts
