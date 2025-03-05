@@ -50,3 +50,13 @@ print(current.strftime("%d %A %B %y %p"))
 num = 12
 print("Number is",num)
 print(f"Number is {num}")
+
+
+# break and continue # loop control statement
+# break is used to stop the loop
+
+for i in range(1,11):  # jump statement
+  if i == 5:
+    continue
+  print(i)
+
