@@ -4,7 +4,6 @@ import time
 # for multi threaded programming
 # theread is a subprocess
 
-
 def function_one():
   for i in range(1,11):
     time.sleep(1)
