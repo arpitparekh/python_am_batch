@@ -42,3 +42,28 @@ print(sys.version)
 print(sys.platform)
 import os
 
+# core python
+# mysql
+# mongodb # nosql database
+
+# advance python
+# database handling (local database, remote database)(mysql,mongodb)
+# api (rest api) // fast api // exios api // crud operation
+# desktop application // tkinter (windows,linux,mac) // pyQT
+# web application // flask // django (web appilcation)
+
+
+# 2 types of database
+# 1. local database (database server that run on my local machine)
+# 2. remote database (database server that run on rweb servers)
+
+# local database
+
+# mysql(database => tables) // mongodb(database => collections => documents)
+# create table
+# insert data into table
+# read table
+# update table
+# delete table
+
+# mysql
